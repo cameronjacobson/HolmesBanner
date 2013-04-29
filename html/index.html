@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript">
+			function clickbanner(e){
+				if(e){
+					e.preventDefault();
+				}
+				window.open(this.href,'clickbanner','width=400,height=400');
+				return false;
+			}
+		</script>
+	</head>
+	<body>
+		<div style="width:800px;margin-left:auto;margin-right:auto;border:1px solid #ccc;">
+			<!-- HEAD -->
+				<div style="height:100px;width:800px;background-color:#ddd;">
+					HEAD
+				</div>
+			<!-- BODY -->
+				<div style="height:300px;width:650px;margin-left:auto;margin-right:auto;background-color:#ccc;margin-top:20px;margin-bottom:20px;">
+					BODY
+				</div>
+
+	<div id="DS_HolmesBanner" data-click="clickbanner"></div>
+<!--
+	<div id="DS_HolmesBanner" style="margin-left:70px;"></div>
+	<div id="DS_HolmesBanner" data-nostyle></div>
+	<div id="DS_HolmesBanner" data-openwindow></div>
+	<div id="DS_HolmesBanner" data-click="clickbanner"></div>
+-->
+
+		</div>
+		<script type="text/javascript" src="https://dh7qlprum1yi1.cloudfront.net/2/hbanner.min.js"></script>
+	</body>
+</html>
