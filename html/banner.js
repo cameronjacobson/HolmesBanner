@@ -23,7 +23,7 @@ var DS_HolmesBanner = (function(win){
 		var el = document.getElementById('DS_HolmesBanner');
 		el.style.width = '728px';
 		el.style.height = '90px';
-		el.style.backgroundImage = 'url(https://s3-us-west-2.amazonaws.com/holmesbanner/2/HolmesBanner.jpg)';
+		el.style.backgroundImage = 'url(https://dh7qlprum1yi1.cloudfront.net/2/HolmesBanner.jpg)';
 		if(el.getAttribute('data-nostyle') === null){
 			el.style.marginLeft = 'auto';
 			el.style.marginRight = 'auto';
